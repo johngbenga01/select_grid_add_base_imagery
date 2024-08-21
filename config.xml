@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Select Grid and Add Base Imageries</Name><AddInID>{038bffe9-074e-4586-969e-69cc8d7ac41f}</AddInID><Description>Select Grid and Add Base Imageries based on selection</Description><Version>0.1</Version><Image /><Author>J. Fadamoro</Author><Company>Teqbridge Nigeria Limited</Company><Date>08/28/2020</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="SelectGridBaseImageries_addin.py" namespace="SelectGridBaseImageries_addin"><ArcMap>
+    <Commands>
+        <Button caption="SelectGrid" category="Select Grid and Add Base Imageries" class="ButtonClassSelectGrid" id="SelectGridBaseImageries_addin.button" image="Images\select.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="AddBaseImageries" category="Select Grid and Add Base Imageries" class="ButtonClassBaseImageries" id="SelectGridBaseImageries_addin.button_1" image="Images\Add.png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Select Grid and Add Imageries Toolbar" category="Select Grid and Add Base Imageries" id="SelectGridBaseImageries_addin.toolbar" showInitially="true"><Items><Button refID="SelectGridBaseImageries_addin.button" /><Button refID="SelectGridBaseImageries_addin.button_1" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
